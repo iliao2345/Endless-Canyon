@@ -1,0 +1,83 @@
+25-04-2017
+ - added "rubiks cube" 3d model to find display/graphics bugs
+ - fixed point projection issues
+ - added depth sorting for displaying triangles
+ - added 3-axis sideways mouse rotation system
+ - added wsad shift space system for movement
+ - bug fixes
+27-04-2017
+ - added terrain generation and display algorithm
+ - stopped drawing faces facing away from the camera
+ - created a "face" class
+ - added basic lighting
+ - bug fixes
+30-04-2017
+ - fixed lighting bug
+02-05-2017
+ - added sky
+ - improved randomization function
+ - created "player" class
+ - changed movement system to control player accelleration
+ - added gravity
+ - added drag
+ - added angular velocity
+ - fixed 3d rotation algorithm issues
+03-05-2017
+ - added terrain size scaling
+04-05-2017
+ - fixed bug where triangles with exactly 2 vertices behind the camera could not display
+06-05-2017
+ - fixed bug where triangles with exactly 1 vertex behind the camera could not display (took 4 hours)
+ - altered terrain generation inputs
+ - fixed algorithm for identifying the away-facing faces of objects
+ - removed rubiks cube
+07-05-2017
+ - made graphics system slightly faster
+ - added Aircraft class
+ - added rotational accelleration
+ - adjusted movement mechanics
+08-05-2017
+ - completed Aircraft class, now 12 numbers are required to define any aircraft.
+ - adjusted movement
+09-05-2017
+ - adjusted movement
+ - added helicopter
+10-05-2017
+ - fixed lag
+13-05-2017
+ - added bullets
+ - added enemies
+15-05-2017
+ - added particle effects
+ - fixed enemies
+ - added enemy crash effects
+17-05-2017
+ - created a version which could be imported
+18-05-2017
+ - split the game into 2 files: game and menu system
+19-05-2017
+ - created menu tree
+ - created menu tree class
+20-05-2017
+ - added button images
+ - increased airplane speed
+ - decreased mountain size
+ - added crosshairs and aim circle
+21-05-2017
+ - created instructions image
+ - enemies now spawn one by one
+ - added kill count
+ - holding the mouse button now shoots continuously
+ - added dirt clump model for particle effects
+22-05-2017
+ - added sounds
+ - added missiles
+23-05-2017
+ - fixed bug resulting in death at spawn
+ - missiles now face the enemy
+ - fixed missile target prioritizing
+ - fixed lag spike issues (finally)
+ - added missile to instructions
+ - added background
+ - fixed button images
+ - added title
